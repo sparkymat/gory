@@ -1,3 +1,7 @@
+bitbucket.org/pkg/inflect v0.0.0-20130829110746-8961c3750a47 h1:XDrztcXGcx7jow3UUE2dpYtdSWVUigoyn8G+shykEtw=
+bitbucket.org/pkg/inflect v0.0.0-20130829110746-8961c3750a47/go.mod h1:8Rt8gHhG+tKz8P3SoEzL/ZNVl25fPhMFKItv5HLIdtY=
+github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e h1:fY5BOSpyZCqRo5OhCuC+XN+r/bBCmeuuJtjz+bCNIf8=
+github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/kr/pretty v0.1.0 h1:L/CwN0zerZDmRFUapSPitk6f+Q3+0za1rQkzVuMiMFI=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=

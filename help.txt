@@ -1,0 +1,10 @@
++---------+------------+--------------------------------------------+
+| Command | Subcommand | Description                                |
++---------+------------+--------------------------------------------+
+| help    |            | Display this help                          |
+| server  |            | Commands to handle servers                 |
+|         | list       | Display all running servers                |
+|         | new <name> | Start a new server with the specified name |
+|         | stop <id>  | Stop the server with the specified id      |
+| quit    |            | Leave the app                              |
++---------+------------+--------------------------------------------+

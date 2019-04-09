@@ -1,0 +1,24 @@
+
+        GGGGGGGGGGGGG                                                           
+     GGG::::::::::::G                                                           
+   GG:::::::::::::::G                                                           
+  G:::::GGGGGGGG::::G                                                           
+ G:::::G       GGGGGG   ooooooooooo   rrrrr   rrrrrrrrryyyyyyy           yyyyyyy
+G:::::G               oo:::::::::::oo r::::rrr:::::::::ry:::::y         y:::::y 
+G:::::G              o:::::::::::::::or:::::::::::::::::ry:::::y       y:::::y  
+G:::::G    GGGGGGGGGGo:::::ooooo:::::orr::::::rrrrr::::::ry:::::y     y:::::y   
+G:::::G    G::::::::Go::::o     o::::o r:::::r     r:::::r y:::::y   y:::::y    
+G:::::G    GGGGG::::Go::::o     o::::o r:::::r     rrrrrrr  y:::::y y:::::y     
+G:::::G        G::::Go::::o     o::::o r:::::r               y:::::y:::::y      
+ G:::::G       G::::Go::::o     o::::o r:::::r                y:::::::::y       
+  G:::::GGGGGGGG::::Go:::::ooooo:::::o r:::::r                 y:::::::y        
+   GG:::::::::::::::Go:::::::::::::::o r:::::r                  y:::::y         
+     GGG::::::GGG:::G oo:::::::::::oo  r:::::r                 y:::::y          
+        GGGGGG   GGGG   ooooooooooo    rrrrrrr                y:::::y           
+                                                             y:::::y            
+                                                            y:::::y             
+                                                           y:::::y              
+                                                          y:::::y               
+                                                         yyyyyyy                
+
+Welcome to Gory! Type 'help' to get started.
