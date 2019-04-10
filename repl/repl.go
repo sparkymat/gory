@@ -16,7 +16,7 @@ import (
 // App is an instance of the REPL
 type App struct {
 	Name           string
-	Handler        func(string)
+	Channel        chan string
 	WelcomeMessage string
 }
 
@@ -57,7 +57,7 @@ func (c *App) Run() {
 			}
 		} else {
 			cleanedLine := strings.TrimSpace(line)
-			c.Handler(cleanedLine)
+			c.Channel <- cleanedLine
 		}
 	}
 }

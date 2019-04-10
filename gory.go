@@ -4,6 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/sparkymat/gory/game"
 	"github.com/sparkymat/gory/repl"
 )
 
@@ -11,6 +12,8 @@ func inputHandler(line string) {
 	switch {
 	case line == "help":
 		displayFile("help.txt")
+	case line == "motd":
+		displayFile("motd.txt")
 	case line == "quit":
 		os.Exit(0)
 	}
@@ -39,9 +42,20 @@ func main() {
 		}
 	}
 
+	inputChannel := make(chan string)
+
+	go func() {
+		for {
+			inputHandler(<-inputChannel)
+		}
+	}()
+
+	g := game.New()
+	go g.Start()
+
 	console := repl.App{
 		Name:           "Gory",
-		Handler:        inputHandler,
+		Channel:        inputChannel,
 		WelcomeMessage: motd,
 	}
 	console.Run()
